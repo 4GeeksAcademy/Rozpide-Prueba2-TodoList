@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 // inicio creando el componente funcional 'ToodoList'
-const TodoList = () => {
+const ToodoList = () => {
     // creo las variables de estado necesarias para este componente
     const [tareas, setTareas] = useState([]); // variable de estado para el listado de tareas, por eso al hook le paso [] vacio
     const [nuevaTarea, setNuevaTarea] = useState(''); // variable de estado para el campo de entrada inicializado ('') vacia
@@ -109,4 +109,4 @@ const TodoList = () => {
     );
 };
 
-export default TodoList;
+export default ToodoList;
